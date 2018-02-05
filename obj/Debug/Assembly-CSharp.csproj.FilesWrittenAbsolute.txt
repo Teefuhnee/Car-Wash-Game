@@ -25,3 +25,30 @@
 /Users/noodleninja/Car Wash/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/noodleninja/Car Wash/Temp/bin/Debug/Unity.Cecil.Pdb.dll
 /Users/noodleninja/Car Wash/Temp/bin/Debug/Unity.Cecil.Mdb.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/obj/Debug/Assembly-CSharp.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEditor.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/nunit.framework.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.Cecil.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.DataContract.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Unity.Cecil.Mdb.dll
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/noodleninja/Documents/GitHub/Car-Wash-Game/Temp/bin/Debug/Assembly-CSharp.dll

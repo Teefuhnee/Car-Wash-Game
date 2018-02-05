@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-	public float m_carMove;
-	public float m_playerSpeed = 11.0f;
-	public float m_playerMove;
-	public GameObject m_WaterPrefab;
+	private float m_playerSpeed = 11.0f;
+	private float m_playerMove;
+	public GameObject m_waterPrefab;
 	public Boundary m_boundary;
 
 	private Rigidbody m_rigidbody;
+
+	private float nextBullet;
+	public float bulletRate;
 
 	private void Awake ()
 	{
@@ -21,7 +23,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		MovePlayer ();
 	}
-
+		
 	private void Update()
 	{
 		Shoot();
@@ -29,9 +31,10 @@ public class PlayerController : MonoBehaviour {
 
 	private void Shoot()
 	{
-		if (Input.GetKeyDown(KeyCode.Space)) 
+		if (Input.GetKeyDown(KeyCode.Space) && Time.time > nextBullet) 
 		{
-			Instantiate (m_WaterPrefab, transform.position, transform.rotation);
+			nextBullet = Time.time + bulletRate;
+			Instantiate (m_waterPrefab, transform.position, transform.rotation);
 		}
 	}
 	private void MovePlayer()

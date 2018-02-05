@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4895619748791662}
   - component: {fileID: 54808995580469402}
   - component: {fileID: 114819778323099482}
+  - component: {fileID: 136918155374098102}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +43,7 @@ GameObject:
   - component: {fileID: 54298083709355168}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +62,7 @@ GameObject:
   - component: {fileID: 54662340123093178}
   m_Layer: 0
   m_Name: Head
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +100,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803924002495150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4602068264908082}
@@ -245,11 +246,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a314f32772354ec3abe80a9910abcf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_carMove: 0
-  m_playerSpeed: 11
-  m_playerMove: 0
-  m_WaterPrefab: {fileID: 1070032817435210, guid: 382ddea0c6d124e1886b2376fea59dba,
+  m_waterPrefab: {fileID: 1070032817435210, guid: 382ddea0c6d124e1886b2376fea59dba,
     type: 2}
+  m_boundary:
+    xMin: -4.5
+    xMax: 4.5
+  bulletRate: 0.2
 --- !u!136 &136201586572449308
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -274,5 +276,18 @@ CapsuleCollider:
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136918155374098102
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803924002495150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
